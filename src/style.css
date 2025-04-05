@@ -1,8 +1,47 @@
 @import "tailwindcss";
 
- body {
-    background-color: #000000 ;
-    color : #ffffff;
-} 
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
 
+/* Navbar styling */
+.navbar {
+  background-color: #0f6312; /* Green background */
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
 
+/* Navbar links container */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+/* Navbar links styling */
+.nav-links h4 {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for links */
+.nav-links h4:hover {
+  color: #ffcc00; /* Yellow on hover */
+}
+
+.Footer {
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6px;
+  position: absolute;
+  bottom: 0;
+  background-color: pink;
+  padding : 1rem 1rem;
+  width: 100%; 
+}
